@@ -19,6 +19,7 @@
     --color-blue-400: oklch(70.7% 0.165 254.624);
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-purple-300: oklch(82.7% 0.119 306.383);
+    --color-purple-400: oklch(71.4% 0.203 305.504);
     --color-purple-500: oklch(62.7% 0.265 303.9);
     --color-pink-400: oklch(71.8% 0.202 349.761);
     --color-gray-50: oklch(98.5% 0.002 247.839);
@@ -359,6 +360,9 @@
   .h-\[60px\] {
     height: 60px;
   }
+  .h-\[64px\] {
+    height: 64px;
+  }
   .h-\[120px\] {
     height: 120px;
   }
@@ -412,6 +416,9 @@
   }
   .w-\[46px\] {
     width: 46px;
+  }
+  .w-\[64px\] {
+    width: 64px;
   }
   .w-\[120px\] {
     width: 120px;
@@ -673,6 +680,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
   .border-\[3px\] {
     border-style: var(--tw-border-style);
     border-width: 3px;
@@ -715,6 +726,12 @@
   .border-gray-900 {
     border-color: var(--color-gray-900);
   }
+  .border-purple-400 {
+    border-color: var(--color-purple-400);
+  }
+  .border-purple-500 {
+    border-color: var(--color-purple-500);
+  }
   .border-sky-400 {
     border-color: var(--color-sky-400);
   }
@@ -725,6 +742,12 @@
     border-color: color-mix(in srgb, #fff 40%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       border-color: color-mix(in oklab, var(--color-white) 40%, transparent);
+    }
+  }
+  .border-white\/70 {
+    border-color: color-mix(in srgb, #fff 70%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-white) 70%, transparent);
     }
   }
   .bg-emerald-500 {
@@ -843,6 +866,9 @@
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
   }
+  .pb-10 {
+    padding-bottom: calc(var(--spacing) * 10);
+  }
   .pl-10 {
     padding-left: calc(var(--spacing) * 10);
   }
@@ -917,6 +943,9 @@
   .text-\[22px\] {
     font-size: 22px;
   }
+  .text-\[26px\] {
+    font-size: 26px;
+  }
   .text-\[28px\] {
     font-size: 28px;
   }
@@ -925,6 +954,9 @@
   }
   .text-\[34px\] {
     font-size: 34px;
+  }
+  .text-\[42px\] {
+    font-size: 42px;
   }
   .text-\[44px\] {
     font-size: 44px;
