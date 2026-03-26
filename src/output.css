@@ -431,6 +431,12 @@
   .h-16 {
     height: calc(var(--spacing) * 16);
   }
+  .h-\[8px\] {
+    height: 8px;
+  }
+  .h-\[22px\] {
+    height: 22px;
+  }
   .h-\[32px\] {
     height: 32px;
   }
@@ -505,6 +511,12 @@
   }
   .w-\[4px\] {
     width: 4px;
+  }
+  .w-\[8px\] {
+    width: 8px;
+  }
+  .w-\[22px\] {
+    width: 22px;
   }
   .w-\[32px\] {
     width: 32px;
@@ -810,6 +822,13 @@
       margin-block-end: calc(calc(var(--spacing) * 16) * calc(1 - var(--tw-space-y-reverse)));
     }
   }
+  .space-y-\[16px\] {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(16px * var(--tw-space-y-reverse));
+      margin-block-end: calc(16px * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
   .space-y-\[18px\] {
     :where(& > :not(:last-child)) {
       --tw-space-y-reverse: 0;
@@ -911,6 +930,12 @@
   }
   .border-\[\#00B777\] {
     border-color: #00B777;
+  }
+  .border-\[\#00D97B\] {
+    border-color: #00D97B;
+  }
+  .border-\[\#BDBDBD\] {
+    border-color: #BDBDBD;
   }
   .border-\[\#CFCFCF\] {
     border-color: #CFCFCF;
@@ -1069,6 +1094,9 @@
   }
   .px-\[30px\] {
     padding-inline: 30px;
+  }
+  .px-\[35px\] {
+    padding-inline: 35px;
   }
   .px-\[40px\] {
     padding-inline: 40px;
@@ -1525,6 +1553,11 @@
     -webkit-user-select: none;
     user-select: none;
   }
+  .placeholder\:text-\[\#AFAFAF\] {
+    &::placeholder {
+      color: #AFAFAF;
+    }
+  }
   .placeholder\:text-gray-400 {
     &::placeholder {
       color: var(--color-gray-400);
@@ -1627,6 +1660,11 @@
       padding-inline: 35px;
     }
   }
+  .sm\:px-\[40px\] {
+    @media (width >= 40rem) {
+      padding-inline: 40px;
+    }
+  }
   .sm\:px-\[60px\] {
     @media (width >= 40rem) {
       padding-inline: 60px;
@@ -1642,6 +1680,11 @@
       font-size: 22px;
     }
   }
+  .sm\:text-\[30px\] {
+    @media (width >= 40rem) {
+      font-size: 30px;
+    }
+  }
   .sm\:text-\[34px\] {
     @media (width >= 40rem) {
       font-size: 34px;
@@ -1651,6 +1694,12 @@
     @media (width >= 40rem) {
       --tw-leading: 42px;
       line-height: 42px;
+    }
+  }
+  .sm\:leading-\[44px\] {
+    @media (width >= 40rem) {
+      --tw-leading: 44px;
+      line-height: 44px;
     }
   }
   .md\:block {
