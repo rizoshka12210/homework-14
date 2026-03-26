@@ -404,6 +404,9 @@
   .mb-\[35px\] {
     margin-bottom: 35px;
   }
+  .mb-\[40px\] {
+    margin-bottom: 40px;
+  }
   .ml-auto {
     margin-left: auto;
   }
@@ -1155,6 +1158,9 @@
   .py-\[22px\] {
     padding-block: 22px;
   }
+  .py-\[24px\] {
+    padding-block: 24px;
+  }
   .py-\[30px\] {
     padding-block: 30px;
   }
@@ -1707,6 +1713,11 @@
   .sm\:text-\[34px\] {
     @media (width >= 40rem) {
       font-size: 34px;
+    }
+  }
+  .sm\:text-\[38px\] {
+    @media (width >= 40rem) {
+      font-size: 38px;
     }
   }
   .sm\:leading-\[42px\] {
