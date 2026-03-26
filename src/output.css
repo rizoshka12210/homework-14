@@ -1197,6 +1197,9 @@
   .pb-\[80px\] {
     padding-bottom: 80px;
   }
+  .pb-\[100px\] {
+    padding-bottom: 100px;
+  }
   .pl-10 {
     padding-left: calc(var(--spacing) * 10);
   }
@@ -1675,6 +1678,11 @@
       padding-inline: 80px;
     }
   }
+  .sm\:text-\[14px\] {
+    @media (width >= 40rem) {
+      font-size: 14px;
+    }
+  }
   .sm\:text-\[22px\] {
     @media (width >= 40rem) {
       font-size: 22px;
@@ -1683,6 +1691,11 @@
   .sm\:text-\[30px\] {
     @media (width >= 40rem) {
       font-size: 30px;
+    }
+  }
+  .sm\:text-\[32px\] {
+    @media (width >= 40rem) {
+      font-size: 32px;
     }
   }
   .sm\:text-\[34px\] {
