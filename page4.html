@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    <header class="w-full">
-    <div class="max-w-7xl mx-auto px-10 py-6 flex items-center justify-between">
 
+<header class="w-full">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-6 flex items-center justify-between">
 
       <div class="flex items-center gap-3">
-        <img src="./photo/_2243895274448.png" alt="logo">
+        <img src="./photo/_2243895274448.png" alt="logo" class="w-[120px] sm:w-auto">
       </div>
-
 
       <nav class="hidden lg:flex items-center gap-8 text-sm text-gray-700">
         <a href="./page2.html" class="hover:text-black">Как покупать</a>
@@ -26,43 +25,42 @@
         <a href="./index.html" class="hover:text-black">Магазины</a>
       </nav>
 
-
-      <div class="flex items-center gap-6">
-        <button class="flex items-center gap-2 text-sm text-gray-700 hover:text-black">
+      <div class="flex items-center gap-3 sm:gap-6">
+        <button class="hidden sm:flex items-center gap-2 text-sm text-gray-700 hover:text-black">
           <img src="./photo/User.png" alt="">
           Вход
         </button>
 
-        <button class="bg-green-500 hover:bg-green-600 text-white text-sm px-6 py-3 rounded-full shadow-md">
+        <button class="bg-green-500 hover:bg-green-600 text-white text-xs sm:text-sm px-4 sm:px-6 py-2 sm:py-3 rounded-full shadow-md">
           Связаться с нами
         </button>
       </div>
 
     </div>
-  </header>
-
-    <section class="max-w-[1280px] mx-auto">
+</header>
 
 
-  <div class="w-full flex justify-center pt-6">
+
+<section class="max-w-[1280px] mx-auto">
+
+  <div class="w-full flex justify-center pt-6 px-4 sm:px-6 lg:px-0">
     <div
-      class="w-[92%] rounded-[40px] px-[40px] sm:px-[80px] lg:px-[120px] py-[45px]"
+      class="w-full sm:w-[92%] rounded-[30px] sm:rounded-[40px] px-6 sm:px-[80px] lg:px-[120px] py-[45px]"
       style="background: linear-gradient(90deg, #5D5AA8 0%, #3BB6E5 100%);"
     >
-     
+
       <div class="text-white/50 text-[12px] font-medium mb-[18px]">
         Главная <span class="mx-[6px]">/</span> Цены
       </div>
 
-    
-      <h1 class="text-white text-[26px] sm:text-[34px] lg:text-[44px] font-bold leading-[34px] sm:leading-[42px] lg:leading-[52px]">
+      <h1 class="text-white text-[22px] sm:text-[34px] lg:text-[44px] font-bold leading-[30px] sm:leading-[42px] lg:leading-[52px]">
         Услуги доставки из Великобритании
       </h1>
     </div>
   </div>
 
 
-  <div class="max-w-[1150px] mx-auto mt-[70px] px-[20px] pb-[80px]">
+  <div class="max-w-[1150px] mx-auto mt-[50px] sm:mt-[70px] px-4 sm:px-[20px] pb-[80px]">
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-[55px] gap-x-[50px]">
 
@@ -72,7 +70,6 @@
           src="./photo/Ресурс 1 2.png"
           alt=""
           class="w-[200px] h-[170px] object-contain mb-[25px]"
-          
         />
 
         <h3 class="text-[#1A1A1A] font-bold text-[16px] leading-[22px] mb-[15px]">
@@ -84,7 +81,7 @@
           на нашем современном автоматизированном складе в безналоговом Делавэре
         </p>
 
-        <button class="bg-[#41B7E9] hover:bg-[#2fa9dc] transition text-white text-[12px] font-semibold px-[45px] py-[12px] rounded-[6px]">
+        <button class="bg-[#41B7E9] hover:bg-[#2fa9dc] transition text-white text-[12px] font-semibold px-[45px] py-[12px] rounded-[6px] w-full sm:w-auto">
           Бесплатно
         </button>
       </div>
@@ -106,10 +103,11 @@
           ведь часто отправлять несколько посылок в одной коробке гораздо выгоднее, чем по одной
         </p>
 
-        <button class="bg-[#41B7E9] hover:bg-[#2fa9dc] transition text-white text-[12px] font-semibold px-[45px] py-[12px] rounded-[6px]">
+        <button class="bg-[#41B7E9] hover:bg-[#2fa9dc] transition text-white text-[12px] font-semibold px-[45px] py-[12px] rounded-[6px] w-full sm:w-auto">
           от £10.00
         </button>
       </div>
+
 
       <div class="flex flex-col items-center lg:items-start text-center lg:text-left">
         <img
@@ -127,7 +125,7 @@
           Мы дополнительно упакуем вашу посылку в пленку, коробку с двойными стенками.
         </p>
 
-        <button class="bg-[#41B7E9] hover:bg-[#2fa9dc] transition text-white text-[12px] font-semibold px-[45px] py-[12px] rounded-[6px]">
+        <button class="bg-[#41B7E9] hover:bg-[#2fa9dc] transition text-white text-[12px] font-semibold px-[45px] py-[12px] rounded-[6px] w-full sm:w-auto">
           от £0.25
         </button>
       </div>
@@ -149,7 +147,7 @@
           чем больше срок хранения посылок на складе – тем больше вы сможете собрать
         </p>
 
-        <button class="bg-[#41B7E9] hover:bg-[#2fa9dc] transition text-white text-[12px] font-semibold px-[45px] py-[12px] rounded-[6px]">
+        <button class="bg-[#41B7E9] hover:bg-[#2fa9dc] transition text-white text-[12px] font-semibold px-[45px] py-[12px] rounded-[6px] w-full sm:w-auto">
           Бесплатно
         </button>
       </div>
@@ -159,26 +157,26 @@
 
 </section>
 
-    <section class="max-w-[1100px] mx-auto px-[20px] pt-[70px] pb-[80px]">
 
- 
+
+<section class="max-w-[1100px] mx-auto px-4 sm:px-[20px] pt-[50px] sm:pt-[70px] pb-[80px]">
+
   <div class="max-w-[650px]">
-    <h2 class="text-[#1A1A1A] font-extrabold text-[34px] leading-[42px]">
+    <h2 class="text-[#1A1A1A] font-extrabold text-[24px] sm:text-[30px] lg:text-[34px] leading-[32px] sm:leading-[42px]">
       Онлайн-калькулятор<br>
       стоимости доставки товара
     </h2>
 
-    <p class="text-[#7A7A7A] text-[14px] leading-[22px] mt-[18px]">
+    <p class="text-[#7A7A7A] text-[13px] sm:text-[14px] leading-[22px] mt-[18px]">
       Задайте необходимые параметры посылки, и калькулятор рассчитает
       приблизительную стоимость доставки вашей посылки из Англии.
     </p>
   </div>
 
 
-  <div class="mt-[45px] bg-white rounded-[18px] shadow-[0px_8px_30px_rgba(0,0,0,0.06)] px-[25px] sm:px-[35px] py-[30px]">
+  <div class="mt-[45px] bg-white rounded-[18px] shadow-[0px_8px_30px_rgba(0,0,0,0.06)] px-[20px] sm:px-[35px] py-[30px]">
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-x-[25px] gap-y-[25px]">
-
 
       <div>
         <label class="text-[#2B2B2B] text-[12px] font-semibold block mb-[10px]">
@@ -209,7 +207,7 @@
         </div>
       </div>
 
-  
+
       <div>
         <label class="text-[#2B2B2B] text-[12px] font-semibold block mb-[10px]">
           Индекс:
@@ -224,7 +222,7 @@
         </div>
       </div>
 
- 
+
       <div>
         <label class="text-[#2B2B2B] text-[12px] font-semibold block mb-[10px]">
           Вес посылки:
@@ -260,7 +258,7 @@
     <div class="mt-[30px]">
       <button
         class="bg-[#00D97B] hover:bg-[#00c26e] transition text-white font-bold text-[13px]
-        px-[65px] py-[14px] rounded-full shadow-[0px_10px_20px_rgba(0,217,123,0.25)]"
+        px-[65px] py-[14px] rounded-full shadow-[0px_10px_20px_rgba(0,217,123,0.25)] w-full sm:w-auto"
       >
         Рассчитать
       </button>
@@ -269,8 +267,9 @@
   </div>
 
 
+
   <div class="mt-[70px]">
-    <h3 class="text-[#1A1A1A] text-[28px] font-extrabold underline decoration-[#41B7E9] decoration-[4px] underline-offset-[8px]">
+    <h3 class="text-[#1A1A1A] text-[22px] sm:text-[26px] lg:text-[28px] font-extrabold underline decoration-[#41B7E9] decoration-[4px] underline-offset-[8px]">
       Варианты доставки:
     </h3>
 
@@ -318,6 +317,7 @@
       </div>
 
 
+
       <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[22px] py-[18px]">
         <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-[18px]">
 
@@ -357,7 +357,8 @@
         </div>
       </div>
 
- 
+
+
       <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[22px] py-[18px]">
         <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-[18px]">
 
@@ -402,56 +403,57 @@
 
 </section>
 
-    <section class="max-w-[1100px] mx-auto px-[20px] pt-[80px] pb-[80px]">
 
 
-  <h2 class="text-[#1A1A1A] text-[26px] font-extrabold mb-[35px]">
+<section class="max-w-[1100px] mx-auto px-4 sm:px-[20px] pt-[80px] pb-[80px]">
+
+  <h2 class="text-[#1A1A1A] text-[24px] sm:text-[26px] font-extrabold mb-[35px]">
     Услуги склада
   </h2>
 
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-[35px] gap-y-[18px] mb-[25px]">
 
-    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex justify-between items-center">
+    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
       <p class="text-[#2B2B2B] font-semibold text-[13px]">Консолидация</p>
-      <div class="h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
+      <div class="hidden sm:block h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
       <p class="text-[#2B2B2B] font-bold text-[13px]">£1.00 / 1 трек</p>
     </div>
 
-    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex justify-between items-center">
+    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
       <p class="text-[#2B2B2B] font-semibold text-[13px]">Заполнение декларации</p>
-      <div class="h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
+      <div class="hidden sm:block h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
       <p class="text-[#2B2B2B] font-bold text-[13px]">£1.00</p>
     </div>
 
-    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex justify-between items-center">
+    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
       <p class="text-[#2B2B2B] font-semibold text-[13px]">Дополнительная упаковка</p>
-      <div class="h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
+      <div class="hidden sm:block h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
       <p class="text-[#2B2B2B] font-bold text-[13px]">£5.00</p>
     </div>
 
-    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex justify-between items-center">
+    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
       <p class="text-[#2B2B2B] font-semibold text-[13px]">Упаковка хрупких предметов</p>
-      <div class="h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
+      <div class="hidden sm:block h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
       <p class="text-[#2B2B2B] font-bold text-[13px]">£10.00</p>
     </div>
 
-    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex justify-between items-center">
+    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
       <p class="text-[#2B2B2B] font-semibold text-[13px]">Заполнение декларации</p>
-      <div class="h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
+      <div class="hidden sm:block h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
       <p class="text-[#2B2B2B] font-bold text-[13px]">£1.00</p>
     </div>
 
-    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex justify-between items-center">
+    <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[18px] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
       <p class="text-[#2B2B2B] font-semibold text-[13px]">Разделение заказа</p>
-      <div class="h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
+      <div class="hidden sm:block h-[40px] w-[1px] bg-[#E5E5E5] mx-[20px]"></div>
       <p class="text-[#2B2B2B] font-bold text-[13px]">£2.00</p>
     </div>
 
   </div>
 
-  <div class="space-y-[18px]">
 
+  <div class="space-y-[18px]">
 
     <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col md:flex-row md:items-center md:justify-between gap-[15px]">
       <div>
@@ -471,7 +473,7 @@
       </div>
     </div>
 
-  
+
     <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col md:flex-row md:items-center md:justify-between gap-[15px]">
       <div>
         <p class="text-[#2B2B2B] font-semibold text-[13px]">
@@ -489,6 +491,7 @@
         </p>
       </div>
     </div>
+
 
     <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col md:flex-row md:items-center md:justify-between gap-[15px]">
       <div>
@@ -569,13 +572,12 @@
 
 
 
-  <div class="mt-[120px]">
-    <h2 class="text-[#1A1A1A] text-[28px] font-extrabold mb-[35px]">
+  <div class="mt-[90px] sm:mt-[120px]">
+    <h2 class="text-[#1A1A1A] text-[22px] sm:text-[28px] font-extrabold mb-[35px]">
       Покупки с операторами Okeypost.com
     </h2>
 
     <div class="space-y-[18px]">
-
 
       <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col md:flex-row md:items-center md:justify-between gap-[15px]">
         <div>
@@ -597,6 +599,7 @@
           </p>
         </div>
       </div>
+
 
       <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col md:flex-row md:items-center md:justify-between gap-[15px]">
         <div>
@@ -621,32 +624,32 @@
 
 </section>
 
-    <section class="max-w-[1280px] mx-auto">
 
 
-  <div class="w-full flex justify-center pt-6">
+<section class="max-w-[1280px] mx-auto">
+
+  <div class="w-full flex justify-center pt-6 px-4 sm:px-6 lg:px-0">
     <div
-      class="w-[92%] rounded-[40px] px-[30px] sm:px-[60px] lg:px-[100px] py-[55px] flex flex-col lg:flex-row items-center gap-[35px]"
+      class="w-full sm:w-[92%] rounded-[30px] sm:rounded-[40px] px-6 sm:px-[60px] lg:px-[100px] py-[55px] flex flex-col lg:flex-row items-center gap-[35px]"
       style="background: linear-gradient(90deg, #5D5AA8 0%, #3BB6E5 100%);"
     >
 
       <div class="w-full lg:w-[40%] flex justify-center">
         <img
           src="./photo/Ресурс 1 6.png"
-          class="w-[270px] sm:w-[320px] lg:w-[360px] object-contain"
+          class="w-[250px] sm:w-[320px] lg:w-[360px] object-contain"
           alt=""
         />
       </div>
 
- 
+
       <div class="w-full lg:w-[60%] text-center lg:text-left">
-        <h2 class="text-white font-bold text-[18px] sm:text-[22px] leading-[28px]">
+        <h2 class="text-white font-bold text-[16px] sm:text-[20px] lg:text-[22px] leading-[24px] sm:leading-[28px]">
           Попробуйте заказывать с оператором прямо сейчас.<br>
           Пришлите ссылку на товар, его купят и доставят на наш<br>
           склад в кратчайшие сроки.
         </h2>
 
-      
         <div class="mt-[30px] flex flex-col sm:flex-row sm:items-center gap-[20px]">
           <div class="w-full">
             <div class="flex items-center gap-[10px] border-b border-white/40 pb-[10px]">
@@ -661,7 +664,7 @@
 
           <button
             class="bg-[#00D97B] hover:bg-[#00c26e] transition text-white font-bold text-[13px]
-            px-[55px] py-[14px] rounded-full shadow-[0px_10px_20px_rgba(0,217,123,0.25)]"
+            px-[55px] py-[14px] rounded-full shadow-[0px_10px_20px_rgba(0,217,123,0.25)] w-full sm:w-auto"
           >
             Отправить
           </button>
@@ -678,16 +681,14 @@
 
 
 
-  <div class="max-w-[1100px] mx-auto px-[20px] pt-[80px] pb-[80px]">
+  <div class="max-w-[1100px] mx-auto px-4 sm:px-[20px] pt-[80px] pb-[80px]">
 
- 
-    <h2 class="text-[#1A1A1A] text-[30px] font-extrabold mb-[35px]">
+    <h2 class="text-[#1A1A1A] text-[24px] sm:text-[30px] font-extrabold mb-[35px]">
       Страхование
     </h2>
 
     <div class="space-y-[18px]">
 
- 
       <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col md:flex-row md:items-center md:justify-between gap-[15px]">
         <p class="text-[#2B2B2B] font-semibold text-[13px]">
           Дополнительное страхование
@@ -715,7 +716,7 @@
         </div>
       </div>
 
-     
+
       <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col md:flex-row md:items-center md:justify-between gap-[15px]">
         <p class="text-[#2B2B2B] font-semibold text-[13px]">
           Мелкие пакеты
@@ -733,14 +734,13 @@
 
 
 
-    <h2 class="text-[#1A1A1A] text-[30px] font-extrabold mt-[90px] mb-[35px]">
+    <h2 class="text-[#1A1A1A] text-[24px] sm:text-[30px] font-extrabold mt-[70px] sm:mt-[90px] mb-[35px]">
       Дополнительная упаковка
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-x-[35px] gap-y-[18px]">
 
-    
-      <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex justify-between items-center">
+      <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
         <div>
           <p class="text-[#2B2B2B] font-semibold text-[13px]">
             Многослойная пленка
@@ -751,14 +751,15 @@
         </div>
 
         <div class="flex items-center gap-[20px]">
-          <div class="h-[45px] w-[1px] bg-[#E5E5E5]"></div>
+          <div class="hidden sm:block h-[45px] w-[1px] bg-[#E5E5E5]"></div>
           <p class="text-[#2B2B2B] font-bold text-[13px]">
             £3.99
           </p>
         </div>
       </div>
 
-      <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex justify-between items-center">
+
+      <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
         <div>
           <p class="text-[#2B2B2B] font-semibold text-[13px]">
             Упаковка в пакет
@@ -769,15 +770,15 @@
         </div>
 
         <div class="flex items-center gap-[20px]">
-          <div class="h-[45px] w-[1px] bg-[#E5E5E5]"></div>
+          <div class="hidden sm:block h-[45px] w-[1px] bg-[#E5E5E5]"></div>
           <p class="text-[#2B2B2B] font-bold text-[13px]">
             £1.99
           </p>
         </div>
       </div>
 
-    
-      <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex justify-between items-center">
+
+      <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
         <div>
           <p class="text-[#2B2B2B] font-semibold text-[13px]">
             Упаковка в коробку с двойными стенками
@@ -788,15 +789,15 @@
         </div>
 
         <div class="flex items-center gap-[20px]">
-          <div class="h-[45px] w-[1px] bg-[#E5E5E5]"></div>
+          <div class="hidden sm:block h-[45px] w-[1px] bg-[#E5E5E5]"></div>
           <p class="text-[#2B2B2B] font-bold text-[13px]">
             £4.99
           </p>
         </div>
       </div>
 
-    
-      <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex justify-between items-center">
+
+      <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
         <div>
           <p class="text-[#2B2B2B] font-semibold text-[13px]">
             Наклейка “Обращаться с осторожностью”
@@ -807,14 +808,15 @@
         </div>
 
         <div class="flex items-center gap-[20px]">
-          <div class="h-[45px] w-[1px] bg-[#E5E5E5]"></div>
+          <div class="hidden sm:block h-[45px] w-[1px] bg-[#E5E5E5]"></div>
           <p class="text-[#2B2B2B] font-bold text-[13px]">
             £0.25
           </p>
         </div>
       </div>
 
-      <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex justify-between items-center">
+
+      <div class="bg-white rounded-[12px] shadow-[0px_6px_20px_rgba(0,0,0,0.06)] px-[25px] py-[20px] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
         <div>
           <p class="text-[#2B2B2B] font-semibold text-[13px]">
             Наклейка “Хрупкий груз”
@@ -825,7 +827,7 @@
         </div>
 
         <div class="flex items-center gap-[20px]">
-          <div class="h-[45px] w-[1px] bg-[#E5E5E5]"></div>
+          <div class="hidden sm:block h-[45px] w-[1px] bg-[#E5E5E5]"></div>
           <p class="text-[#2B2B2B] font-bold text-[13px]">
             £0.25
           </p>
@@ -838,25 +840,27 @@
 
 </section>
 
-     <section class="mt-28 max-w-[1280px] mx-auto px-10">
+
+
+<section class="mt-16 sm:mt-28 max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-10">
   <div
-    class="w-full rounded-[28px] overflow-hidden px-20 py-20 flex items-center justify-between"
+    class="w-full rounded-[28px] overflow-hidden px-6 sm:px-12 lg:px-20 py-12 sm:py-16 lg:py-20 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10"
     style="background: linear-gradient(90deg, #5d4dbb 0%, #3a8ed6 55%, #4fc2d9 100%);"
   >
-    <h2 class="text-white text-[42px] font-extrabold leading-[1.15]">
+    <h2 class="text-white text-[26px] sm:text-[34px] lg:text-[42px] font-extrabold leading-[1.15]">
       Остались вопросы? Спросите нас в соцсетях!
     </h2>
 
-    <div class="flex gap-6">
-      <div class="w-[64px] h-[64px] rounded-full border-2 border-white/70 flex items-center justify-center">
+    <div class="flex gap-4 sm:gap-6">
+      <div class="w-[54px] h-[54px] sm:w-[64px] sm:h-[64px] rounded-full border-2 border-white/70 flex items-center justify-center">
         <img src="./photo/Vector-2.png" alt="">
       </div>
 
-      <div class="w-[64px] h-[64px] rounded-full border-2 border-white/70 flex items-center justify-center">
+      <div class="w-[54px] h-[54px] sm:w-[64px] sm:h-[64px] rounded-full border-2 border-white/70 flex items-center justify-center">
         <img src="./photo/Group-2.png" alt="">
       </div>
 
-      <div class="w-[64px] h-[64px] rounded-full border-2 border-white/70 flex items-center justify-center">
+      <div class="w-[54px] h-[54px] sm:w-[64px] sm:h-[64px] rounded-full border-2 border-white/70 flex items-center justify-center">
         <img src="./photo/Group 27-2.png" alt="">
       </div>
     </div>
@@ -865,13 +869,12 @@
 
 
 
-<footer class="mt-20 max-w-[1280px] mx-auto px-10 pb-10">
-  <div class="grid grid-cols-4 gap-12 items-start">
-
+<footer class="mt-16 sm:mt-20 max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-10 pb-10">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 items-start">
 
     <div>
       <div class="flex items-center gap-3">
-        <img src="./photo/_2243895274448.png" alt="">
+        <img src="./photo/_2243895274448.png" alt="" class="w-[120px] sm:w-auto">
       </div>
 
       <div class="mt-10 flex gap-4">
@@ -931,11 +934,13 @@
         <li>Stop Fraud</li>
       </ul>
     </div>
+
   </div>
 
-  <div class="mt-20 border-t border-gray-200 pt-8 text-center text-gray-400 text-[12px]">
+  <div class="mt-16 sm:mt-20 border-t border-gray-200 pt-8 text-center text-gray-400 text-[12px]">
     © 2021 Okeypost . Все права защищены.
   </div>
 </footer>
+
 </body>
 </html>
